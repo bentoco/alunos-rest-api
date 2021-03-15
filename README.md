@@ -6,7 +6,7 @@ Exercício do curso de Spring Boot Rest Api
 
 <b>Objetivo de aprendizado:</b> Criar uma aplicação web Java seguindo os padrões REST que persiste e retorna os dados de um aluno em banco de dados relacional.
 
-<b>Motivo da escolha:</b> Utilizarem o Spring Boot porque ele facilita o processo de configuração de uma aplicação, através dos componentes do Spring. Com ele contamos com ajuda do Spring Initializr, que nos permite montar o pack inicial do projeto com as dependências necessárias de uma forma muito prática e rápida. Nesse projeto será utilizado Spring Web, Spring Data JPA, Bean Validation, MySQL Driver e H2 Database.
+<b>Motivo da escolha:</b> Utilizar o Spring Boot facilita no processo de configuração de uma aplicação, com ele contamos com ajuda do starter, Spring Initializr. Ele nos permite montar o pack inicial do projeto com as dependências necessárias de uma forma muito prática e rápida. Nesse projeto será utilizado Spring Web, Spring Data JPA, Bean Validation, MySQL Driver e H2 Database.
 
 - Inicio a aplicação criando a classe Aluno que por sua vez será uma entidade. Essa classe terá quatro atributos: id, nome, email e idade.
     - Anoto essa classe com @Entity para informar ao Hibernate que essa classe é uma tabela dentro do banco de dados.
